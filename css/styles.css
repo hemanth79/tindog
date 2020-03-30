@@ -1,0 +1,161 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Black";
+}
+
+p {
+  color: gray;
+}
+
+/* headings */
+.big-heading {
+  font-family: "Monsterrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5cm;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.body {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* download buttons */
+.downloadbuttons {
+  margin: 3% 2% 2% 1%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.title-image {
+  width: 50%;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.fas {
+  color: #e6739f;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 5px 7px 5px;
+}
+
+
+
+/* Pricing section */
+#pricing {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5cm;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+
+#footer {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
